@@ -29,7 +29,7 @@
         {{ post.published_date }}
         </div>
         <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-        <p>&lt;img src=&quot;{{ contact.img }}&quot;&gt;&lt;/a&gt; </p>
+        <p>&lt;img src=&quot;{{ blog.img }}&quot;&gt;&lt;/a&gt; </p>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
